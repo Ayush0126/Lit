@@ -7,8 +7,8 @@
 
 
 .left-panel {
-   flex: 3; 
-  background-image: url('../assets/pexels-zaksheuskaya-709412-1568607.jpg');
+  flex: 3; 
+  background-image: url('/lit/public/box-1472804_1280.webp');
   /* #f0f0f0;*/
   background-size: cover;
   background-position: center;
