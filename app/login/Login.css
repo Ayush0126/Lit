@@ -1,0 +1,117 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.left-panel {
+   flex: 3; 
+  background-image: url('../assets/pexels-zaksheuskaya-709412-1568607.jpg');
+  /* #f0f0f0;*/
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+}
+
+
+
+.branding {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: blue;
+  
+  font-weight:bold;
+  font-size: 32px;
+  
+}
+
+
+.right-panel {
+  flex: 2; 
+  background: #003366;
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ .email {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+ }
+ .password {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+ }
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.show-btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.login-btn,
+.signup-btn {
+  padding: 12px;
+  margin-top: 10px;
+  border:#f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #0055cc;
+  color: white;
+  width: 600px;
+}
+
+.signup-btn {
+  background-color: white;
+  color: #003366;
+  border: 1px solid #fff;
+  width: 600px;
+}
+.or{
+    text-align: center;
+}
+.effort{
+    color:  black;
+    font-weight:bold;
+  
+}
+.welcome{
+  text-align: center;
+}
