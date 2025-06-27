@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import "./Login.css"; // ✅ import the CSS file
+import "./Login.css";
 
 const LoginPage = () => {
   const router = useRouter();
@@ -15,7 +15,7 @@ const LoginPage = () => {
     // Basic validation
     if (email === 'admin@example.com' && password === '1234') {
       localStorage.setItem('isLoggedIn', 'true');
-      router.push('/dashboard'); // ✅ redirect
+      router.push('/dashboard'); 
     } else {
       alert('Invalid credentials');
     }
