@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import "./Login.css"; // ✅ import the CSS file
+import "./"
 
 const LoginPage = () => {
   const router = useRouter();
